@@ -1,168 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Document</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <title>Dweep</title>
     <style>
-        #upperpage
-        {
-            height: 70vh;
+        body{
+            margin:0;
+            font-family:Inter
         }
-        #lowerpage
-        {
-            height: 30vh;
+        .banner{
+            background-color:#ffcd9e;
+            display:flex
         }
-        #lowerright
-        {
-            width: 50%;
-            /* height: 650px; */
-            float: right;
-            text-align: center;
-            color: #FFFFFF;
+        .section-left{
+            margin-top:50px;
+            margin-left:130px
         }
-        #lowerleft
-        {
-            width: 50%;
-            /* height: 350px; */
-            float: left;
-            text-align: center;
-            color:#FFFFFF;
-            position: absolute;
+        .header{
+            font-style:normal;
+            font-weight:700;
+            font-size:32px;
+            color:#282828;
+            width:80%
         }
-        #upperright
-        {
-            /* position: absolute; */
-            float:right;
-            width: 50%;
-            text-align: center;
-            /* background: #100F0D; */
+        .description{
+            font-style:normal;
+            font-weight:500;
+            font-size:18px;
+            color:#484848;
+            width:65%;
+            line-height:160%
         }
-        #upperleft
-        {
-            width: 50%;
-            text-align: center;
-            float:left;
+        .tag{
+            font-style:normal;
+            font-weight:800;
+            font-size:18px;
+            color:#282828
         }
-        #mail1
-        {
-            box-sizing: border-box;
+        input{
+            height:32px;
+            background:#FFFFFF;
+            border-radius:8px;
+            padding-left:20px;
+            width:15rem;
+            margin-top:12px;
+            margin-right:12px;
+            border:3px solid #000000
+        }
+        button{
+            background:#282828;
+            border:none;
+            border-radius:8px;
+            color:#fff;
+            font-weight:700;
+            font-size:14px;
+            line-height:24px;
+            width:10em;
+            height:40px;
+            cursor:pointer
+        }
+        .bottom-line{
+            font-style:normal;
+            font-weight:500;
+            font-size:16px;
+            color:#fff;
+            margin-top:12px;
+            margin-left:20px
+        }
+        .footer{
+            display:flex;
+            background:#282828;
+            color:#fff;
+            justify-content:space-between;
+            padding-top:40px;
+            padding-left:120px;
+            padding-right:120px
+        }
+        .footer ul{
+            list-style:none
+        }
+        .footer ul li{
+            margin-bottom:8px;
+            cursor:pointer
+        }
+        .footer-list2{
+            text-align:right
+        }
+        .logo-list{
+            height:16px
+        }
 
-            position: absolute;
-            width: 344px;
-            height: 64px;
-            left: 136px;
-            top: 411px;
-
-            background: #FFFFFF;
-            border: 4px solid #000000;
-            border-radius: 8px;
-        }
-        #button1
-        {
-            position: absolute;
-            width: 216px;
-            height: 64px;
-            left: 496px;
-            top: 411px;
-            border-radius: 25px;
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 20px;
-            line-height: 24px;
-            display: flex;
-            align-items: center;
-            text-align: center;
-            color: white;
-            background-color: black;
-
-        }
-        #p1
-        {
-            position: absolute;
-            width: 562px;
-            height: 108px;
-            left: 136px;
-            top: 83px;
-
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 36px;
-            line-height: 150%;
-        }
-        #p2
-        {
-            position: absolute;
-            width: 495px;
-            height: 81px;
-            left: 136px;
-            top: 219px;
-
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 160%;
-            /* or 32px */
-
-            display: flex;
-            align-items: center;
-        }
-        #h
-        {
-            position: absolute;
-            width: 227px;
-            height: 81px;
-            left: 136px;
-            top: 315px;
-
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 800;
-            font-size: 20px;
-            line-height: 160%;
-            /* or 32px */
-
-            display: flex;
-            align-items: center;
-        }
     </style>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color: #FFCD9E; margin: 0px;">
-    <div id="upperpage">
-    <div id="upperleft">
-        <p id="p1">An Inspiring design delivered to <br>your inbox every morning</p>
-        <p id="p2">Our team scouts the internet for the best designs <br>illustrations and art and delivers a truly inspiring <br>one every day to your inbox</p>
-        <h3 id="h">Show me how it looks</h3>
-        <br>
-        <input type="email" placeholder="Your e-mail address" id="mail1">
-        <button id="button1">Register Now</button>
-        <!-- <form action=""placeholder="Your e-mail address"></form> -->
-    </div>
-    <div id="upperright">
-        <img src="Images/Vector.png" alt="Good vibes">
-    </div>
-    </div>
-    <div id="lowerpage" style="background-color: black;">
-<!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, sint.</p> -->
-    <div id ="lowerleft">
-        <p>Promprt Generator</p>
-        <p>Dweep Daily</p>
-        <p>All Contributions</p>
-        <p>Your data on Dweep.io</p>
-        <p>Contribute to Deep</p>
-    </div>
-    <div id="lowerright">
-        <p>Dweep.io</p>
-        <p>Made with love in India</p>
-        <img src="" alt="LinkedIn" style="background-color: #FFCD9E;">
-        <img src="" alt="Instagram" style="background-color: #FFCD9E;">
-        <br>
-        <br>
-        <br>
-        <p>hellodweep.io</p>
+
+<body>
+    <div id="root">
+        <div class="App">
+            <div class="banner">
+                <div class="section-left">
+                    <p class="header">An inspiring design delivered to your inbox every morning</p>
+                    <p class="description">Our team scouts the internet for the best designs, illustrations and art and
+                        delivers a truly inspiring one every day to your inbox</p>
+                    <p class="tag">Show me how it looks</p><input type="email"
+                        placeholder="Your e-mail address"><button>Register
+                        Now</button>
+                    <div class="bottom-line">Free - No Spam - No Data Sharing</div>
+                </div>
+                <div class="section-right">
+                    <img src="./Images/Vector.png">
+                </div>
+            </div>
+            <div class="footer">
+                <ul>
+                    <li>Prompt Generator</li>
+                    <li>Dweep Daily</li>
+                    <li>All Contributors</li>
+                    <li>Your data on Dweep.io</li>
+                    <li>Contribute to Dweep</li>
+                </ul>
+                <ul class="footer-list2">
+                    <li>Dweep.io</li>
+                    <li>Made with love in India</li>
+                    <li class="logo-list">
+                        <img src="./Images/Vector.svg" >
+                        <img src="./Images/Vector1.svg">
+                    </li>
+                    <li>&nbsp;</li>
+                    <li>hello@dweep.io</li>
+                </ul>
+            </div>
+        </div>
     </div>
 
-    </div>
+
+
 </body>
+
 </html>
